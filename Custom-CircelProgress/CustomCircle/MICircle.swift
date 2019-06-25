@@ -43,6 +43,7 @@ class MICircle: UIView {
         shape.lineCap = .round
         shape.fillColor = fillColor.cgColor
         shape.position = center
+        shape.transform = CATransform3DMakeRotation(-CGFloat.pi / 2, 0, 0, 1)
         layer.addSublayer(shape)
         return shape
     }
@@ -60,8 +61,7 @@ class MICircle: UIView {
         trackLayer = refactorShape(#colorLiteral(red: 0.4392156899, green: 0.01176470611, blue: 0.1921568662, alpha: 1), .black)
         shapeLayer = refactorShape(#colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1), .clear)
         shapeLayer.strokeEnd = 0
-        layer.addSublayer(shapeLayer)
-        shapeLayer.transform = CATransform3DMakeRotation(-CGFloat.pi / 2, 0, 0, 1)
+
         setupTextPresntage()
         
     }

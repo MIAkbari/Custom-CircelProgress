@@ -13,12 +13,12 @@ class ViewController: UIViewController ,URLSessionDownloadDelegate{
    
 
     let circle = MICircle()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
         
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handelTab)))
-        
         view.addSubview(circle)
         circle.center = view.center
         circle.animatePulsingLayer(true)
