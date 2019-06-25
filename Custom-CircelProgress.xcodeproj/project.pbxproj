@@ -12,6 +12,7 @@
 		840C1AB222C142CD002A5E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C1AB022C142CD002A5E76 /* Main.storyboard */; };
 		840C1AB422C142CE002A5E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840C1AB322C142CE002A5E76 /* Assets.xcassets */; };
 		840C1AB722C142CE002A5E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C1AB522C142CE002A5E76 /* LaunchScreen.storyboard */; };
+		8454E3CC22C2284900A21FDA /* MICircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454E3CB22C2284900A21FDA /* MICircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		840C1AB322C142CE002A5E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840C1AB622C142CE002A5E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840C1AB822C142CE002A5E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8454E3CB22C2284900A21FDA /* MICircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				840C1AAB22C142CD002A5E76 /* Custom-CircelProgress */,
 				840C1AAA22C142CD002A5E76 /* Products */,
+				8454E3C722C227CA00A21FDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +57,7 @@
 		840C1AAB22C142CD002A5E76 /* Custom-CircelProgress */ = {
 			isa = PBXGroup;
 			children = (
+				8454E3CA22C2283500A21FDA /* CustomCircle */,
 				840C1AAC22C142CD002A5E76 /* AppDelegate.swift */,
 				840C1AAE22C142CD002A5E76 /* ViewController.swift */,
 				840C1AB022C142CD002A5E76 /* Main.storyboard */,
@@ -62,6 +66,21 @@
 				840C1AB822C142CE002A5E76 /* Info.plist */,
 			);
 			path = "Custom-CircelProgress";
+			sourceTree = "<group>";
+		};
+		8454E3C722C227CA00A21FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8454E3CA22C2283500A21FDA /* CustomCircle */ = {
+			isa = PBXGroup;
+			children = (
+				8454E3CB22C2284900A21FDA /* MICircle.swift */,
+			);
+			path = CustomCircle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840C1AAF22C142CD002A5E76 /* ViewController.swift in Sources */,
+				8454E3CC22C2284900A21FDA /* MICircle.swift in Sources */,
 				840C1AAD22C142CD002A5E76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
